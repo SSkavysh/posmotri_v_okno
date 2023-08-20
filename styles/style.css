@@ -78,7 +78,7 @@ html {
 
 .button:focus-visible {
   outline: 1px #fff solid;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 .content { 
@@ -126,11 +126,12 @@ align-self: flex-start;
   width: fit-content;
   font-family: inherit;
   color: #fff;
+  align-items: center;
 }
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff; 
-  outline-offset: 2px; 
+  outline-offset: 1px; 
 }
 
 .search-form__label:has(:active) {
@@ -178,23 +179,19 @@ align-self: flex-start;
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
+  display: flex;
   width: 19px;
   height: 19px;
   border: 1px solid #FFF;
-  margin-right: 5px;
-  position: relative;
+  margin-right: 5px;  
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  content: '';
-  position: absolute;
+  content: '';  
   background-color: #fff;
   width: 15px;
   height: 15px;
-  top: 50%;  
-  left: 50%; 
-  transform: translate(-50%, -50%);
+  margin: auto;  
 }
 
 .search-form__checkbox-list {
@@ -230,7 +227,11 @@ align-self: flex-start;
 .content__list {
   height: 298px;
   overflow: auto;
-  position: relative;
+  position: relative;  
+}
+
+.content__list:has(.more-button:focus-visible) {
+  padding-bottom: 2px;
 }
 
 .content__list-item {
@@ -300,7 +301,7 @@ align-self: flex-start;
 
 .more-button {
   width: 401px;
-  margin: 2px;
+  margin: 2px 2px 0 2px;  
 }
 
 
