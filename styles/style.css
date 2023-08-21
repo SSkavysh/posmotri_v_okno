@@ -51,7 +51,7 @@ html {
 }
 
 .button {
-  min-height: 36px;
+  min-height: 34px;
   background-color: transparent;
   border: 1px #fff solid;
   color: #FFF;
@@ -202,7 +202,7 @@ align-self: flex-start;
 }
 
 .search-form__submit-button {
-  width: 196px;
+  width: 194px;
   align-self: flex-end;
 }
 
@@ -300,7 +300,7 @@ align-self: flex-start;
 }
 
 .more-button {
-  width: 401px;
+  width: 399px;
   margin: 3px 3px 0 3px;  
 }
 
