@@ -78,7 +78,7 @@ html {
 
 .button:focus-visible {
   outline: 1px #fff solid;
-  outline-offset: 1px;
+  outline-offset: 2px;
 }
 
 .content { 
@@ -131,7 +131,7 @@ align-self: flex-start;
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff; 
-  outline-offset: 1px; 
+  outline-offset: 2px; 
 }
 
 .search-form__label:has(:active) {
@@ -213,7 +213,7 @@ align-self: flex-start;
 
 .title {
   margin-bottom: 24.5px;  
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;  
   font-weight: 700;
   line-height: 70.5px;
@@ -231,7 +231,7 @@ align-self: flex-start;
 }
 
 .content__list:has(.more-button:focus-visible) {
-  padding-bottom: 2px;
+  padding-bottom: 3px;
 }
 
 .content__list-item {
@@ -267,7 +267,7 @@ align-self: flex-start;
 }
 
 .content__video-card-title {  
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;  
   font-weight: 700;
   line-height: 30px;
@@ -301,7 +301,7 @@ align-self: flex-start;
 
 .more-button {
   width: 401px;
-  margin: 2px 2px 0 2px;  
+  margin: 3px 3px 0 3px;  
 }
 
 
